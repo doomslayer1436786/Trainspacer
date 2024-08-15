@@ -1,0 +1,10 @@
+Flask==1.1.1
+gunicorn==19.0.0
+ultralytics
+matplotlib
+pandas
+scikit-learn
+numpy
+opencv
+mysql
+mysql.connector

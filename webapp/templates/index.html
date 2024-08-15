@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+</head>
+<body>
+    <h1>
+        COACH OCCUPANCY
+    </h1>
+    <form action="{{url_for('capture')}}"method="post">
+<button type="submit">capture</button>
+
+    </form>
+
+    <form action="{{url_for('detect')}}"method="post">
+        <button type="submit">Detect</button>
+        
+            </form>
+
+<p> image
+    <video src="http://192.168.0.154:8080/video" autoplay controls></video>
+    <img src="..\images\90002\c1\captured_image_1_cam0.jpg" alt="Description of the image" width="150" height="150">
+
+</p>
+    
+
+
+    <br>
+    <br>
+   <!-- <ul>
+
+    {% for occupancy in occupancy_coaches %}
+            <li>The coach is {{ occupancy }} percent empty</li>
+    {% endfor %}
+</ul>-->
+
+
+
+</body>
+</html>
